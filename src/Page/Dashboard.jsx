@@ -4,7 +4,7 @@ import Category from "../Components/Category";
 import Products from "../Components/Products";
 const Dashboard = () => {
   return (
-    <div className=" px-4 max-w-[1280px]">
+    <div className=" px-4 max-w-[1280px] ">
       <Navbar />
       <Bags/>
       <Category/>
