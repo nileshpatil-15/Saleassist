@@ -21,9 +21,9 @@ const toggleBookmark=()=>{
         <i style={{ fontSize: '30px' }} className={`${bookmark} text-black`} ></i>{" "}
        
     </button>
-    <img className='' src={image}/> 
-    <div className='bg-[#141414] p-2'>
-        <h2 style={{ fontWeight: 500 }} className='text-lg'>{title}</h2>
+    <img className='border rounded-lg' src={image}/> 
+    <div className=' p-2'>
+        <h2 style={{ fontWeight: 500 }} className='text-[15px] md:text-[17px]'>{title}</h2>
         <div className='flex justify-between py-3'>
             <div className='flex items-center flex-wrap'>
                 <FaRupeeSign />

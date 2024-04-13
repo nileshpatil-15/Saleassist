@@ -22,12 +22,12 @@ function Navbar() {
       </div>
 
       {/* Navigation Links and Icons (visible only above md) */}
-      <nav className="hidden md:flex items-end gap-5">
-        <a className="text-lg cursor-pointer font-normal hover:text-blue-200">Bags</a>
-        <a className="text-lg   cursor-pointer font-normal hover:text-blue-200">Travel</a>
-        <a className="text-lg cursor-pointer font-normal hover:text-blue-200">Accessories</a>
-        <a className="text-lg cursor-pointer font-normal hover:text-blue-200">Gifting</a>
-        <a className="text-lg cursor-pointer font-normal hover:text-blue-200">Jewelry</a>
+      <nav className="hidden md:flex items-end gap-8">
+        <a className="text-sm cursor-pointer font-normal hover:text-blue-200">Bags</a>
+        <a className="text-sm   cursor-pointer font-normal hover:text-blue-200">Travel</a>
+        <a className="text-sm cursor-pointer font-normal hover:text-blue-200">Accessories</a>
+        <a className="text-sm cursor-pointer font-normal hover:text-blue-200">Gifting</a>
+        <a className="text-sm cursor-pointer font-normal hover:text-blue-200">Jewelry</a>
       </nav>
 
       {/* Drawer (visible below md when opened) */}

@@ -14,10 +14,10 @@ const Products = () => {
   return (
     <div className="pt-8">
    <ul className="
-   flex   flex-wrap gap-4 items-center justify-center md:justify-start ">
+   grid grid-cols-2 lg:grid-cols-4 md:grid-cols-3 gap-3 lg:gap-6">
   {products?.map((item) => {
     return (
-      <li key={item.id} className="  h-[380px] w-[150px] md:h-[480px] md:w-[250px] border rounded-lg overflow-hidden border-none  lg:w-[22%]">
+      <li key={item.id} className="  h-[380px] w-[150px]  md:w-[200px]    border border-transparent hover:border-gray-200  transition duration-300 ease-in-out rounded-lg ">
         <SingleProduct prop={item} />
       </li>
     );
