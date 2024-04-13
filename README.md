@@ -1,4 +1,5 @@
-![Uploading image.png…]()
+![image](https://github.com/nileshpatil-15/Saleassist/assets/113256649/4c802dc5-5ac1-425d-b03d-6f6e7b6e8839)
+
 
 
 TanTrim E-Commerce Site Welcome to TanTrim, your go-to e-commerce platform for bags! TanTrim offers a wide range of stylish and functional bags for various purposes, ranging from backpacks to messenger bags, handbags, and more.
