@@ -1,4 +1,3 @@
-import React from 'react'
 import { RxUpload } from "react-icons/rx";
 function Category() {
   return (

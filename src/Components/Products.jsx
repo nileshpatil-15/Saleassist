@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import ApiService from "../services/Apiservices";
-import SingleProduct from "./SingleProduct";
+import SingleProduct from "./SingleProducts";
 const Products = () => {
   const [products, setProducts] = useState([]);
 
