@@ -26,7 +26,7 @@ Technologies used in this project include:
       React Toast is a notification system used in React applications to display non-intrusive messages to users. These messages typically inform users about the outcome of an action, provide feedback, or alert them about important information .
 
 ------Instructions for Running the Project Locally----- 
-1] git [clone https://github.com/nileshpatil-15/tan_trim.git](https://github.com/nileshpatil-15/Saleassist.git)
+1] git https://github.com/nileshpatil-15/Saleassist.git
 2] cd TanTrim
 3]npm i
 4]npm run dev 
