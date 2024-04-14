@@ -1,12 +1,14 @@
 import { useState } from "react";
 import PropTypes from "prop-types"; // Import PropTypes
 import { FaRupeeSign } from "react-icons/fa";
-// eslint-disable-next-line react/prop-types
-// eslint-disable-next-line react/prop-types
+
 function SingleProduct({ prop }) {
-  // eslint-disable-next-line react/prop-types
+  // Destructuring props
   const { title, price, image } = prop;
+
   const [bookmark, setBookmark] = useState("fa-regular fa-bookmark");
+
+  // Function to toggle bookmark
   const toggleBookmark = () => {
     if (bookmark === "fa-regular fa-bookmark") {
       setBookmark("fa-solid fa-bookmark");
@@ -21,10 +23,10 @@ function SingleProduct({ prop }) {
         <i
           style={{ fontSize: "30px" }}
           className={`${bookmark} text-black`}
-        ></i>{" "}
+        ></i>
       </button>
       <img className="border rounded-lg" src={image} />
-      <div className=" p-2 ">
+      <div className="p-2">
         <h2
           style={{ fontWeight: 500 }}
           className="text-[15px] md:text-[17px] h-[35px]"
@@ -57,8 +59,11 @@ function SingleProduct({ prop }) {
 
 // Define prop types for SingleProduct component
 SingleProduct.propTypes = {
-  title: PropTypes.string.isRequired, // title is required and must be a string
-  price: PropTypes.number.isRequired, // price is required and must be a number
+  prop: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    price: PropTypes.number.isRequired,
+    image: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default SingleProduct;
