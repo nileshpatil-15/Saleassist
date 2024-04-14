@@ -31,7 +31,7 @@ Technologies used in this project include:
 3]npm i
 4]npm run dev 
 
-Deployed Site on Netlify The TanTrim e-commerce site is deployed and hosted on Netlify. You can access the live website by following this link: TanTrim E-Commerce
+
 
 DEPLOYED URL- https://tantrimdeal.netlify.app/
 
