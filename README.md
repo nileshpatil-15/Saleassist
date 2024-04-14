@@ -20,7 +20,7 @@ Axios: Axios is a popular JavaScript library for making HTTP requests from the b
 1] git [clone https://github.com/nileshpatil-15/tan_trim.git](https://github.com/nileshpatil-15/Saleassist.git)
 2] cd TanTrim
 3]npm i
-4]npm run dev
+4]npm run dev 
 
 Deployed Site on Netlify The TanTrim e-commerce site is deployed and hosted on Netlify. You can access the live website by following this link: TanTrim E-Commerce
 
