@@ -1,4 +1,4 @@
-![image](https://github.com/nileshpatil-15/Saleassist/assets/113256649/4c802dc5-5ac1-425d-b03d-6f6e7b6e8839)
+![image](https://github.com/nileshpatil-15/Saleassist/assets/113256649/e4b367e8-173e-409e-9868-9c1465ff0118)
 
 
 
@@ -20,7 +20,7 @@ Axios: Axios is a popular JavaScript library for making HTTP requests from the b
 
 Deployed Site on Netlify The TanTrim e-commerce site is deployed and hosted on Netlify. You can access the live website by following this link: TanTrim E-Commerce
 
-DEPLOYED URL- https://tantrimecommerce.netlify.app/
+DEPLOYED URL- [https://tantrimecommerce.netlify.app/](https://tantrimdeal.netlify.app/)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
