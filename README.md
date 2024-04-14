@@ -8,21 +8,21 @@ TanTrim E-Commerce Site Welcome to TanTrim, your go-to e-commerce platform for b
 
 The website features a user-friendly interface where customers can browse through various categories, view product details, add items to their cart, and securely complete their purchases. With its responsive design and intuitive navigation, TanTrim aims to make online bag shopping convenient and enjoyable for everyone.
 
-Technologies Used TanTrim leverages modern web technologies to deliver a fast, responsive, and visually appealing user experience. The key technologies used in this project include:
+Technologies used in this project include:
 
-VITE:
+1]VITE:
      Vite is a next-generation front-end build tool that provides a lightning-fast development server and optimized production builds. It offers an efficient development experience with features like hot module replacement (HMR) and a rich plugin ecosystem.
 
-Tailwind CSS: 
+2]Tailwind CSS: 
              Tailwind CSS is a utility-first CSS framework that enables rapid UI development by providing pre-designed utility classes for styling elements. It allows for quick prototyping and easy customization, resulting in a consistent and visually pleasing design across the entire application.
 
-Axios:
+3]Axios:
       Axios is a popular JavaScript library for making HTTP requests from the browser. It simplifies the process of sending asynchronous HTTP requests and handling responses, making it ideal for fetching data from external APIs and interacting with the server.
       
-RestApi:
+4]RestApi:
          REST stands for Representational State Transfer, and it's an architectural style for designing networked applications. RESTful APIs are APIs that adhere to the principles of REST.
 
-Toast:
+5]Toast:
       React Toast is a notification system used in React applications to display non-intrusive messages to users. These messages typically inform users about the outcome of an action, provide feedback, or alert them about important information .
 
 ------Instructions for Running the Project Locally----- 
@@ -33,7 +33,7 @@ Toast:
 
 Deployed Site on Netlify The TanTrim e-commerce site is deployed and hosted on Netlify. You can access the live website by following this link: TanTrim E-Commerce
 
-DEPLOYED URL- [https://tantrimecommerce.netlify.app/](https://tantrimdeal.netlify.app/)
+DEPLOYED URL- https://tantrimdeal.netlify.app/
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
