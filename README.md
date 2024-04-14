@@ -10,11 +10,20 @@ The website features a user-friendly interface where customers can browse throug
 
 Technologies Used TanTrim leverages modern web technologies to deliver a fast, responsive, and visually appealing user experience. The key technologies used in this project include:
 
-VITE: Vite is a next-generation front-end build tool that provides a lightning-fast development server and optimized production builds. It offers an efficient development experience with features like hot module replacement (HMR) and a rich plugin ecosystem.
+VITE:
+     Vite is a next-generation front-end build tool that provides a lightning-fast development server and optimized production builds. It offers an efficient development experience with features like hot module replacement (HMR) and a rich plugin ecosystem.
 
-Tailwind CSS: Tailwind CSS is a utility-first CSS framework that enables rapid UI development by providing pre-designed utility classes for styling elements. It allows for quick prototyping and easy customization, resulting in a consistent and visually pleasing design across the entire application.
+Tailwind CSS: 
+             Tailwind CSS is a utility-first CSS framework that enables rapid UI development by providing pre-designed utility classes for styling elements. It allows for quick prototyping and easy customization, resulting in a consistent and visually pleasing design across the entire application.
 
-Axios: Axios is a popular JavaScript library for making HTTP requests from the browser. It simplifies the process of sending asynchronous HTTP requests and handling responses, making it ideal for fetching data from external APIs and interacting with the server.
+Axios:
+      Axios is a popular JavaScript library for making HTTP requests from the browser. It simplifies the process of sending asynchronous HTTP requests and handling responses, making it ideal for fetching data from external APIs and interacting with the server.
+      
+RestApi:
+         REST stands for Representational State Transfer, and it's an architectural style for designing networked applications. RESTful APIs are APIs that adhere to the principles of REST.
+
+Toast:
+      React Toast is a notification system used in React applications to display non-intrusive messages to users. These messages typically inform users about the outcome of an action, provide feedback, or alert them about important information .
 
 ------Instructions for Running the Project Locally----- 
 1] git [clone https://github.com/nileshpatil-15/tan_trim.git](https://github.com/nileshpatil-15/Saleassist.git)
