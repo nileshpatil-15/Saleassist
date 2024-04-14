@@ -11,13 +11,12 @@ export default class ApiService {
     }
   };
 
-  static getProducts=async(next)=>{
-    try{
-        const response=await axios.get(GET_PRODUCTS)
-        next(response.data)
-    }catch(err){
-
-        console.log(err);
+  static getProducts = async (next) => {
+    try {
+      const response = await axios.get(GET_PRODUCTS);
+      next(response.data);
+    } catch (err) {
+      console.log(err);
     }
-  }
+  };
 }

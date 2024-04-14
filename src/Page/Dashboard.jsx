@@ -6,10 +6,10 @@ const Dashboard = () => {
   return (
     <div className=" px-4 max-w-[1280px] ">
       <Navbar />
-      <Bags/>
-      <Category/>
-      <Products/>
-      </div>
+      <Bags />
+      <Category />
+      <Products />
+    </div>
   );
 };
 

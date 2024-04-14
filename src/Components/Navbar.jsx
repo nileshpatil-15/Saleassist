@@ -1,4 +1,4 @@
-import  { useState } from "react";
+import { useState } from "react";
 
 function Navbar() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -11,7 +11,11 @@ function Navbar() {
     <header className="flex justify-between h-[90px] pt-4 ">
       <div>
         {/* Logo */}
-        <img className="cursor-pointer"  src="https://iili.io/JE050MX.png" alt="Logo" />
+        <img
+          className="cursor-pointer"
+          src="https://iili.io/JE050MX.png"
+          alt="Logo"
+        />
       </div>
 
       {/* Hamburger Icon (visible only below md) */}
@@ -23,11 +27,21 @@ function Navbar() {
 
       {/* Navigation Links and Icons (visible only above md) */}
       <nav className="hidden md:flex items-end gap-8">
-        <a className="text-sm cursor-pointer font-normal hover:text-blue-200">Bags</a>
-        <a className="text-sm   cursor-pointer font-normal hover:text-blue-200">Travel</a>
-        <a className="text-sm cursor-pointer font-normal hover:text-blue-200">Accessories</a>
-        <a className="text-sm cursor-pointer font-normal hover:text-blue-200">Gifting</a>
-        <a className="text-sm cursor-pointer font-normal hover:text-blue-200">Jewelry</a>
+        <a className="text-sm cursor-pointer font-normal hover:text-blue-200">
+          Bags
+        </a>
+        <a className="text-sm   cursor-pointer font-normal hover:text-blue-200">
+          Travel
+        </a>
+        <a className="text-sm cursor-pointer font-normal hover:text-blue-200">
+          Accessories
+        </a>
+        <a className="text-sm cursor-pointer font-normal hover:text-blue-200">
+          Gifting
+        </a>
+        <a className="text-sm cursor-pointer font-normal hover:text-blue-200">
+          Jewelry
+        </a>
       </nav>
 
       {/* Drawer (visible below md when opened) */}
@@ -75,19 +89,27 @@ function Navbar() {
         </div>
       )}
       <div className=" hidden md:flex gap-6 items-start">
-      
         {/* Removed 'hidden md:flex' */}
         <button className="">
-          <i style={{ fontSize: '20px' }}  className="fa-solid fa-magnifying-glass h-[258px]"></i>
+          <i
+            style={{ fontSize: "20px" }}
+            className="fa-solid fa-magnifying-glass h-[258px]"
+          ></i>
         </button>
         <button className="">
-          <i style={{ fontSize: '20px' }}  className="fa-regular fa-user"></i>{" "}
+          <i style={{ fontSize: "20px" }} className="fa-regular fa-user"></i>{" "}
         </button>
         <button className="">
-          <i  style={{ fontSize: '20px' }} className="fa-regular fa-bookmark"></i>{" "}
+          <i
+            style={{ fontSize: "20px" }}
+            className="fa-regular fa-bookmark"
+          ></i>{" "}
         </button>
         <button className="">
-          <i style={{ fontSize: '20px' }}  className="fa-solid fa-bag-shopping"></i>
+          <i
+            style={{ fontSize: "20px" }}
+            className="fa-solid fa-bag-shopping"
+          ></i>
         </button>
       </div>
     </header>
