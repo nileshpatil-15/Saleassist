@@ -33,7 +33,7 @@ Technologies used in this project include:
 
 
 
-DEPLOYED URL- https://tantrimdeal.netlify.app/
+DEPLOYED URL- https://tantrimzon.netlify.app/
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
